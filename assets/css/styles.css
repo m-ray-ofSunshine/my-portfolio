@@ -26,17 +26,35 @@ nav h1    {
     justify-content: space-evenly;
     }
     .about-me {
+        display: flex;
         border: 1px solid blue;
         margin-top: 10px;
+        justify-content: space-between;
     }
     .my-projects {
+        display: flex;
         border: 1px solid rgb(255, 153, 0);
         margin-top: 10px;
+        justify-content: space-between;
     }
     .contact-me {
+        display: flex;
         border: 1px solid rgb(94, 255, 0);
         margin-top: 10px;
+        justify-content: space-between;
     }
     section {
         display: flex;
+    }
+    .detail-pane {
+        display: flex;
+        border: 1px solid rgb(151, 151, 7);
+        margin: 10px;
+        flex-direction: column;
+        width: 80%;
+    }
+    .overview-pane {
+        border: 1px solid black;
+        width: 20%;
+        margin: 10px;
     }
