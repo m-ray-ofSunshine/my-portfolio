@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+    /* border: solid 2px green; */
+    position: relative;
+    padding: 8px 0px;
+    }
+nav h1    {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    /* border: 1px solid red; */
+    }
+.right-align {
+    margin-left: 100px;
+    /* border: 1px solid red; */
+    text-align: right;
+    }
