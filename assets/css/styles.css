@@ -4,18 +4,39 @@
 
 
 nav {
-    /* border: solid 2px green; */
+    display: flex;
+    border: solid 2px green;
     position: relative;
     padding: 8px 0px;
+    width: 100%;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
     }
 nav h1    {
-    position: absolute;
+    /* position: absolute;
     top: -20px;
-    left: 0px;
-    /* border: 1px solid red; */
+    left: 0px; */
+    border: 1px solid red;
     }
-.right-align {
-    margin-left: 100px;
-    /* border: 1px solid red; */
-    text-align: right;
+.right-align  {
+    display: flex;
+    width: 400px;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    }
+    .about-me {
+        border: 1px solid blue;
+        margin-top: 10px;
+    }
+    .my-projects {
+        border: 1px solid rgb(255, 153, 0);
+        margin-top: 10px;
+    }
+    .contact-me {
+        border: 1px solid rgb(94, 255, 0);
+        margin-top: 10px;
+    }
+    section {
+        display: flex;
     }
