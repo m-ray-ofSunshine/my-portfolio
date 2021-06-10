@@ -14,14 +14,14 @@
                 <h1>Matt Ray's Portfolio</h1>
 
                 <div class="right-align">
-                    <a>About me</a>
-                    <a>My projects</a>
-                    <a>Contact</a>
+                    <a href="#about-link">About me</a>
+                    <a href="#project-link">My projects</a>
+                    <a href="#contact-link">Contact</a>
                 </div>
             </nav>
         </header>
         <main>
-            <section class="panel">
+            <section id="about-link" class="panel">
                 <div class="overview-pane">
                     <h2>About me</h2>
                     <!-- <ul class="nav-list">
@@ -30,7 +30,7 @@
                     <li>Pictures</li>
                 </ul> -->
                 </div>
-                <section class="detail-pane">
+                <div class="detail-pane">
                     <div>
                         <h3>Personal Life</h3>
                         <p>
@@ -49,13 +49,15 @@
                     </div>
                     <div>
                         <h3>Images</h3>
-                        <img src="assets/images/my-family.jpg" alt="Matt, Krista, ChiChi, and Maisy" title="Matt, Krista, ChiChi, and Maisy" class="image" />
-                        <img src="assets/images/kayak.jpg" alt="Matt, Steve, Krista, Catie, and Jeanne" title="Matt, Steve, Krista, Catie, and Jeanne" class="image" />
-                        <img src="assets/images/fort-snelling.jpg" alt="Catie, Peter, Matt, ChiChi, Dozer" title="Catie, Peter, Matt, ChiChi, Dozer" class="image" />
+                        <div id="gallery">
+                            <img src="assets/images/my-family.jpg" alt="Matt, Krista, ChiChi, and Maisy" title="Matt, Krista, ChiChi, and Maisy" class="image" />
+                            <img src="assets/images/kayak.jpg" alt="Matt, Steve, Krista, Catie, and Jeanne" title="Matt, Steve, Krista, Catie, and Jeanne" class="image" />
+                            <img src="assets/images/fort-snelling.jpg" alt="Catie, Peter, Matt, ChiChi, Dozer" title="Catie, Peter, Matt, ChiChi, Dozer" class="image" />
+                        </div>
                     </div>
-                </section>
+                </div>
             </section>
-            <section class="panel">
+            <section id="project-link" class="panel">
                 <div class="overview-pane">
                     <h2>My projects</h2>
                     <!-- <ul class="nav-list">
@@ -64,7 +66,7 @@
                     <li>Box changer</li>
                 </ul> -->
                 </div>
-                <section class="detail-pane">
+                <div class="detail-pane">
                     <a href="https://m-ray-ofsunshine.github.io/hw1-semantic-tags/" target="blank">
                         <div class="semantic-tags">
                             <h3>Semantic Tags</h3>
@@ -78,14 +80,14 @@
                         </div>
                     </a>
                     <a href="https://m-ray-ofsunshine.github.io/box-changer/" target="_blank">
-                        <div>
+                        <div class="box-changer">
                             <h3>Box Changer</h3>
                             <p>Wow what a cool thing you made.</p>
                         </div>
                     </a>
-                </section>
+                </div>
             </section>
-            <section class="panel">
+            <section id="contact-link" class="panel">
                 <div class="overview-pane">
                     <h2>Contact</h2>
                     <!-- <ul class="nav-list">
@@ -94,7 +96,7 @@
                     <li>Linkedin</li>
                 </ul> -->
                 </div>
-                <section class="detail-pane">
+                <div class="detail-pane">
                     <div>
                         <h3>Email</h3>
                         <a href="mailto:dummy.email@gmail.com" type="email">dummy.email@gmail.com</a>
@@ -107,7 +109,7 @@
                         <h3>Linkedin</h3>
                         <a href="https://www.linkedin.com/in/matt-ray-7aa253184/" target="_blank">Matt Ray</a>
                     </div>
-                </section>
+                </div>
             </section>
         </main>
     </body>
