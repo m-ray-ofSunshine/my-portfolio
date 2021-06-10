@@ -124,22 +124,28 @@ section.detail-pane div {
 }
 
 div.semantic-tags h3 {
-    background-color: rgba(255, 161, 21, 0.541);
+    background-color: rgba(255, 255, 255, 0.541);
+    color: black;
 }
-div.semantic-tags p {
-    background-color: rgba(255, 161, 21, 0.541);
+div.semantic-tags a a, p a{
+    background-color: rgba(255, 255, 255, 0.541);
+    color: black;
 }
 div.box-changer h3 {
     background-color: rgba(255, 255, 255, 0.541);
+    color: black;
 }
-div.box-changer p {
+div.box-changer a a, p a {
     background-color: rgba(255, 255, 255, 0.541);
+    color: black;
 }
 div.portfolio h3 {
     background-color: rgba(255, 255, 255, 0.541);
+    color: black;
 }
-div.portfolio p {
+div.portfolio a a, pa {
     background-color: rgba(255, 255, 255, 0.541);
+    color: black;
 }
 div.detail-pane a {
     text-decoration: none;
