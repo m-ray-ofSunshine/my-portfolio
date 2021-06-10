@@ -27,10 +27,8 @@ nav {
     flex-flow: row wrap;
     justify-content: space-between;
 }
-nav h1 {
-  
-    /* border: 1px solid red; */
-}
+
+
 .right-align {
     display: flex;
     width: 400px;
