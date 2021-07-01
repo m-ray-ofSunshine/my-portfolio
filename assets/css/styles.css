@@ -100,10 +100,10 @@ section.detail-pane div {
     height: 150px;
    
 }
-.box-changer {
-    background: url(../images/box-changer.PNG);
+.actor-database {
+    background: url(../images/homePage.PNG);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 75%;
     background-position: center;
     color: black;
     text-decoration: none;
@@ -137,13 +137,13 @@ div.portfolio a  {
     background-color: rgba(77, 168, 218, 0.5);
     color: black;
 }
-div.box-changer h3 {
+div.actor-database h3 {
     background-color: rgba(77, 168, 218, 0.5);
     color: black;
 }
-div.box-changer a {
-    background-color: rgba(rgba(77, 168, 218, 0.5));
-    color: black;
+div.actor-database a {
+    background-color: rgba(77, 168, 218, 0.5);
+    color: white;
 }
 div.detail-pane a {
     text-decoration: none;
